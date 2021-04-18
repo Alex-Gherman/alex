@@ -65,21 +65,29 @@
         <div class="row min-vh-100">
             <div class="aboute-container">
                 <img src="./img//black2.jpg" alt="profile-img">
-                <h1>Hi My name is Pavel-Alexandru Gherman</h1>
-                <p> I'm a <span>full stack web developer</span> im livin Velbert, Germany. I make web application using <span>html</span>, <span>css</span>, <span>React</span>,
-                    <span>scss</span>, <span>Node Js</span>, <span>express</span>, <span>Material ui</span>, <span>bootstrap</span> and <span>javascript</span>.
-                     Check out my work on the <a href="#portofolio" class="link-item">portofolio page</a>. Want to talk aboute a project? You can get in touch with me <a href="#contacts" class="link-item">here</a>.</p>
-                     <h2>skills</h2>
+                <h1> Hi, my name is Pavel-Alexandru Gherman or, you can just call me Alex </h1>
+                <p> I am a <span>full-stack web developer</span> I do my work together with my best friends <span>HTML</span>, <span>Css</span>, <span>React</span>,
+                    <span>scss</span>, <span>Node Js</span>, <span>express</span>, <span>Material ui</span>, <span>bootstrap</span>, <span>javascript</span> and so much more.
+                     You can check out my work on the  <a href="#portofolio" class="link-item">portofolio page</a>. If you have any questions you can get in touch with me <a href="#contacts" class="link-item">here</a>.</p>
+                     <p>Ps: I also like to play  <a href="https://www.ttc-sw-velbert.de/mannschaften/herren-vii/">table tennis</a></p>
+                     <h2>skills</h2> 
                      <div class="skills">
                          <div class="skills-items">html</div>
                          <div class="skills-items">css</div>
-                         <div class="skills-items">javascript</div>
+                         <div class="skills-items">scss</div>
+                         <div class="skills-items">javaScript</div>
+                         <div class="skills-items">jquery</div>
                          <div class="skills-items">bootstrap</div>
                          <div class="skills-items">React</div>
+                         <div class="skills-items">React Bootstrap</div>
                          <div class="skills-items">Material UI</div>
                          <div class="skills-items">node js</div>
-                         <div class="skills-items">express</div>
+                         <div class="skills-items">express js</div>
+                         <div class="skills-items">Mongo Db</div>
+                         <div class="skills-items">vue js</div>
+                         <div class="skills-items">git & github</div>
                          <div class="skills-items">nginx</div>
+                         <div class="skills-items">Raspberry Pi</div>
                      </div>
             </div>
         </div>
@@ -97,17 +105,19 @@
         <div class="row">
             <div class="portofolio-filter">
                <button type="button" title="Show All Works"         class="portofolio-filter-btn active" data-filter="all">all</button> 
-               <button type="button" title="Filter by Full Stack"    class="portofolio-filter-btn " data-filter="full-stack">full-stack</button> 
+               <button type="button" title="Filter by Full Stack"   class="portofolio-filter-btn " data-filter="full-stack">full-stack</button> 
                <button type="button" title="Filter by Front-end"    class="portofolio-filter-btn" data-filter="front-end">front-end</button> 
-               <button type="button" title="Filter by React" class="portofolio-filter-btn" data-filter="react">react</button> 
-               <button type="button" title="Filter by React" class="portofolio-filter-btn" data-filter="games">games</button> 
-               <button type="button" title="Filter by React" class="portofolio-filter-btn " data-filter="effects">effects</button> 
+               <button type="button" title="Filter by React"        class="portofolio-filter-btn" data-filter="react">react</button> 
+               <button type="button" title="Filter by games"        class="portofolio-filter-btn" data-filter="games">games</button> 
+               <button type="button" title="Filter by effects"        class="portofolio-filter-btn " data-filter="effects">effects</button> 
+               <button type="button" title="Filter by vuejs"        class="portofolio-filter-btn " data-filter="vuejs">vuejs</button> 
             </div>
             <div class="filter-status"><p></p></div>
         </div>
         <div class="row portofolio-items">
+
             <!--portofolio item start-->
-            <div class="portofolio-item" data-category="full-stack,react">
+            <div class="portofolio-item" data-category="full-stack,react,front-end">
                 <div class="portofolio-item-thumbnail">
                     <img src="./img//projects/0.jpg" alt="projectimg">
                     <button type="button" class="btn more-info-btn">more info</button>
@@ -131,7 +141,28 @@
                 </div>
             </div>
             <!--portofolio item end-->
-            
+
+           <!--portofolio item start-->
+           <div class="portofolio-item" data-category="front-end,vuejs">
+               <div class="portofolio-item-thumbnail">
+                   <img src="./img/projects/vuejs.jpg" alt="projectimg">
+                   <button type="button" class="btn more-info-btn">more info</button>
+               </div>
+               <h3 class="portofolio-item-title">Vue Js Weather</h3>
+               <div class="portofolio-item-details">
+                   <div class="description">
+                       <p></p>
+                   </div>
+                   <div class="geberal-info">
+                       <p>Teechnologies Used - <span>Vue Js, Css</span></p>
+                       <p>Role - <span>Front-end</span></p>
+                       <p>View On Github - <span><a href="https://github.com/Alex-Gherman/vue-weather-app.github.io" target="_blank">https://github.com/Alex-Gherman/vue-weather-app.github.io</a></span></p>
+                   </div>
+               </div>
+           </div>
+
+
+            <!--portofolio item end-->
             <!--portofolio item start-->
             <div class="portofolio-item" data-category="front-end,react">
                 <div class="portofolio-item-thumbnail">
@@ -153,9 +184,49 @@
             <!--portofolio item end-->
 
             <!--portofolio item start-->
+            <div class="portofolio-item" data-category="front-end,react,games">
+                <div class="portofolio-item-thumbnail">
+                    <img src="./img/projects/2.jpg" alt="thumbnail">
+                    <button type="button" class="btn more-info-btn">more info</button>
+                </div>
+                <h3 class="portofolio-item-title">chess Game</h3>
+                <div class="portofolio-item-details">
+                    <div class="description">
+                        <p>I built this to play chess on local pc with my friends</p>
+                    </div>
+                    <div class="geberal-info">
+                        <p>Teechnologies Used - <span>Html,Css, Javascript</span></p>
+                        <p>Role - <span>Front-end Game</span></p>
+                        <p>View Online - <span><a href="https://alex-gherman.github.io/react-chess/" target="_blank">https://alex-gherman.github.io/react-chess/</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <!--portofolio item end-->
+
+            <!--portofolio item start-->
+            <div class="portofolio-item" data-category="react,front-end">
+                <div class="portofolio-item-thumbnail">
+                    <img src="./img/projects/3.jpg" alt="projectimg">
+                    <button type="button" class="btn more-info-btn">more info</button>
+                </div>
+                <h3 class="portofolio-item-title">React Portofolio/working</h3>
+                <div class="portofolio-item-details">
+                    <div class="description">
+                        <p>React Portofolio</p>
+                    </div>
+                    <div class="geberal-info">
+                        <p>Teechnologies Used - <span>React, Css, Material UI, React-Bootstrap</span></p>
+                        <p>Role - <span>Front-end</span></p>
+                        <p>View Online - <span><a href="https://alex-gherman.github.io/portofolio/" target="_blank">https://alex-gherman.github.io/portofolio/</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <!--portofolio item end-->
+
+            <!--portofolio item start-->
             <div class="portofolio-item" data-category="games">
                 <div class="portofolio-item-thumbnail">
-                    <img src="./img/projects/2.jpg" alt="projectimg">
+                    <img src="./img/projects/4.jpg" alt="projectimg">
                     <button type="button" class="btn more-info-btn">more info</button>
                 </div>
                 <h3 class="portofolio-item-title">boubble game</h3>
@@ -173,9 +244,70 @@
             <!--portofolio item end-->
 
             <!--portofolio item start-->
+            <div class="portofolio-item" data-category="games">
+                <div class="portofolio-item-thumbnail">
+                    <img src="./img//projects/5.jpg" alt="projectimg">
+                    <button type="button" class="btn more-info-btn">more info</button>
+                </div>
+                <h3 class="portofolio-item-title">Neno Fish</h3>
+                <div class="portofolio-item-details">
+                    <div class="description">
+                        <p> 
+                            This is a fish game where u collect bubbles to earn points and avoid the enemies.The project is still in working
+                        </p>
+                    </div>
+                    <div class="geberal-info">
+                        <p>Teechnologies Used - <span>Html, Css, Javascript</span></p>
+                        <p>Role - <span>Front-end Game</span></p>
+                        <p>View Online - <span><a href="https://alex-gherman.github.io/Nemo-fish/" target="_blank">https://alex-gherman.github.io/Nemo-fish/</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <!--portofolio item end-->
+
+            <!--portofolio item start-->
             <div class="portofolio-item" data-category="effects">
                 <div class="portofolio-item-thumbnail">
-                    <img src="./img/projects/3.jpg" alt="thumbnail">
+                    <img src="./img/projects/6.jpg" alt="thumbnail">
+                    <button type="button" class="btn more-info-btn">more info</button>
+                </div>
+                <h3 class="portofolio-item-title">halloween-Animation</h3>
+                <div class="portofolio-item-details">
+                    <div class="description">
+                        <p>Is almost the same like Snow dropping animation but some small changes </p>
+                    </div>
+                    <div class="geberal-info">
+                        <p>Teechnologies Used - <span>Html,Css, Javascript</span></p>
+                        <p>Role - <span>Front-end Game</span></p>
+                        <p>View Online - <span><a href=" https://alex-gherman.github.io/halloween-Animation/" target="_blank">https://alex-gherman.github.io/halloween-Animation/</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <!--portofolio item end-->
+            <!--portofolio item start-->
+            <div class="portofolio-item" data-category="effects">
+                <div class="portofolio-item-thumbnail">
+                    <img src="./img/projects/7.jpg" alt="thumbnail">
+                    <button type="button" class="btn more-info-btn">more info</button>
+                </div>
+                <h3 class="portofolio-item-title">Snow Drop</h3>
+                <div class="portofolio-item-details">
+                    <div class="description">
+                        <p>A simple snow dropping animation </p>
+                    </div>
+                    <div class="geberal-info">
+                        <p>Teechnologies Used - <span>Html,Css, Javascript</span></p>
+                        <p>Role - <span>Front-end Game</span></p>
+                        <p>View Online - <span><a href="https://alex-gherman.github.io/snow1/" target="_blank">https://alex-gherman.github.io/snow1/</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <!--portofolio item end-->
+
+            <!--portofolio item start-->
+            <div class="portofolio-item" data-category="effects">
+                <div class="portofolio-item-thumbnail">
+                    <img src="./img/projects/8.jpg" alt="thumbnail">
                     <button type="button" class="btn more-info-btn">more info</button>
                 </div>
                 <h3 class="portofolio-item-title">circular motion effect</h3>
@@ -195,7 +327,27 @@
             <!--portofolio item start-->
             <div class="portofolio-item" data-category="effects">
                 <div class="portofolio-item-thumbnail">
-                    <img src="./img/projects/4.jpg" alt="thumbnail">
+                    <img src="./img/projects/9.jpg" alt="projectimg">
+                    <button type="button" class="btn more-info-btn">more info</button>
+                </div>
+                <h3 class="portofolio-item-title">Text Animation</h3>
+                <div class="portofolio-item-details">
+                    <div class="description">
+                        <p>I used html css and javascript to create some text animation</p>
+                    </div>
+                    <div class="geberal-info">
+                        <p>Teechnologies Used - <span>Html, Css, Javascript</span></p>
+                        <p>Role - <span>Front-end Effect</span></p>
+                        <p>View Online - <span><a href="https://alex-gherman.github.io/text-animation-bubble/" target="_blank">https://alex-gherman.github.io/text-animation-bubble/</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <!--portofolio item end-->
+
+            <!--portofolio item start-->
+            <div class="portofolio-item" data-category="effects">
+                <div class="portofolio-item-thumbnail">
+                    <img src="./img/projects/10.jpg" alt="thumbnail">
                     <button type="button" class="btn more-info-btn">more info</button>
                 </div>
                 <h3 class="portofolio-item-title">Text Animation</h3>
@@ -212,87 +364,12 @@
             </div>
             <!--portofolio item end-->
 
-            <!--portofolio item start-->
-            <div class="portofolio-item" data-category="effects">
-                <div class="portofolio-item-thumbnail">
-                    <img src="./img/projects/5.jpg" alt="projectimg">
-                    <button type="button" class="btn more-info-btn">more info</button>
-                </div>
-                <h3 class="portofolio-item-title">Text Animation2</h3>
-                <div class="portofolio-item-details">
-                    <div class="description">
-                        <p>I used html css and javascript to create some text animation</p>
-                    </div>
-                    <div class="geberal-info">
-                        <p>Teechnologies Used - <span>Html, Css, Javascript</span></p>
-                        <p>Role - <span>Front-end Effect</span></p>
-                        <p>View Online - <span><a href="https://alex-gherman.github.io/text-animation-bubble/" target="_blank">https://alex-gherman.github.io/text-animation-bubble/</a></span></p>
-                    </div>
-                </div>
-            </div>
-            <!--portofolio item end-->
 
 
 
-            <!--portofolio item start-->
-<div class="portofolio-item" data-category="effects">
-    <div class="portofolio-item-thumbnail">
-        <img src="./img/projects/6.jpg" alt="thumbnail">
-        <button type="button" class="btn more-info-btn">more info</button>
-    </div>
-    <h3 class="portofolio-item-title">Snow Drop</h3>
-    <div class="portofolio-item-details">
-        <div class="description">
-            <p>A simple snow dropping animation </p>
-        </div>
-        <div class="geberal-info">
-            <p>Teechnologies Used - <span>Html,Css, Javascript</span></p>
-            <p>Role - <span>Front-end Game</span></p>
-            <p>View Online - <span><a href="https://alex-gherman.github.io/snow1/" target="_blank">https://alex-gherman.github.io/snow1/</a></span></p>
-        </div>
-    </div>
-</div>
-<!--portofolio item end-->
 
-<!--portofolio item start-->
-<div class="portofolio-item" data-category="effects">
-    <div class="portofolio-item-thumbnail">
-        <img src="./img/projects/7.jpg" alt="thumbnail">
-        <button type="button" class="btn more-info-btn">more info</button>
-    </div>
-    <h3 class="portofolio-item-title">halloween-Animation</h3>
-    <div class="portofolio-item-details">
-        <div class="description">
-            <p>Is almost the same like Snow dropping animation but some small changes </p>
-        </div>
-        <div class="geberal-info">
-            <p>Teechnologies Used - <span>Html,Css, Javascript</span></p>
-            <p>Role - <span>Front-end Game</span></p>
-            <p>View Online - <span><a href=" https://alex-gherman.github.io/halloween-Animation/" target="_blank">https://alex-gherman.github.io/halloween-Animation/</a></span></p>
-        </div>
-    </div>
-</div>
-<!--portofolio item end-->
 
-<!--portofolio item start-->
-<div class="portofolio-item" data-category="React,games">
-    <div class="portofolio-item-thumbnail">
-        <img src="./img/projects/8.jpg" alt="thumbnail">
-        <button type="button" class="btn more-info-btn">more info</button>
-    </div>
-    <h3 class="portofolio-item-title">chess Game</h3>
-    <div class="portofolio-item-details">
-        <div class="description">
-            <p>I built this to play chess on local pc with my friends</p>
-        </div>
-        <div class="geberal-info">
-            <p>Teechnologies Used - <span>Html,Css, Javascript</span></p>
-            <p>Role - <span>Front-end Game</span></p>
-            <p>View Online - <span><a href="https://alex-gherman.github.io/react-chess/" target="_blank">https://alex-gherman.github.io/react-chess/</a></span></p>
-        </div>
-    </div>
-</div>
-<!--portofolio item end-->
+
        </div>
     </div>
 </section>
@@ -309,10 +386,10 @@
         <div class="row">
             <div class="contact-content">
                 <div class="contact-text">
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quae illo? Perspiciatis cum magni voluptas fugiat adipisci aut impedit aspernatur?</p> 
+                   <p></p> 
                 </div>
                 <div class="contact-info-item">
-                    <p>Email me<span>alexgherman68@gmail.com</span></p>
+                    <p>Email me <span>alexgherman68@gmail.com</span></p>
                 </div>
                 <div class="contact-info-item">
                     <p class="social-links">
