@@ -835,6 +835,17 @@ Portofolio Section
   font-size: 24px;
   font-weight: 600;
 }
+.contact-info-item p span a {
+  color: var(--main-color);
+  transform: translateY(0, 0, 0, 0.25);
+  transition: ease-in-out 0.8s;
+}
+
+.contact-info-item p span a:hover {
+  font-size: 32px;
+  transform: translateY(0, 0, 0, 0.25);
+  transition: ease-in-out 0.8s;
+}
 .contact-info-item .social-links span {
   margin-right: 4px;
 }
