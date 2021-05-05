@@ -1,4 +1,5 @@
 /*-------Page Loader--------- */
+
 window.addEventListener("load", (e) => {
   document.querySelector(".page-loader").classList.add("slide-out-ring");
   setTimeout(() => {
@@ -85,7 +86,7 @@ filterBtnsContainer.addEventListener("click", (e) => {
     document.querySelector(".filter-status").classList.add("active");
     document.querySelector(
       ".filter-status p"
-    ).innerHTML = `filtering <span>${e.target.innerHTML}</span> works`;
+    ).innerHTML = `filtering <span>${e.target.innerHTML}</span> Loading...`;
     setTimeout(() => {
       filterItems(e.target);
     }, 400);
